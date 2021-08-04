@@ -1,0 +1,24 @@
+<view class="xd-box">
+	<view class="xd-marg">
+
+		<view class="xd-icon-list">
+			<view class="xd-icon-label">
+				<image src="/images/b1.png" mode="widthFix" />
+				<text>图片1</text>
+			</view>
+			<view class="xd-icon-label">
+				<image src="/images/b2.png" mode="widthFix" />
+				<text>图片2</text>
+			</view>
+			<view class="xd-icon-label">
+				<image src="/images/b3.png" mode="widthFix" />
+				<text>图片3</text>
+			</view>
+			<view class="xd-icon-label">
+				<image src="/images/b3.png" mode="widthFix" />
+				<text>图片4</text>
+			</view>
+		</view>
+
+	</view>
+</view>

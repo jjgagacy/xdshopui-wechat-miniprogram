@@ -1,0 +1,18 @@
+<view class="xd-box">
+	<view class="xd-marg">
+
+		<view class="xd-swiper-box">
+			<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+	        <block wx:for="{{pic_list}}" wx:key="*this">
+		        <swiper-item>
+		            <view class="swiper-item {{item}}">
+		            	<image class="" src="{{item}}" mode="aspectFit"></image>
+		            </view>
+		        </swiper-item>
+	        </block>
+      	</swiper>
+		</view>
+
+	</view>
+</view>

@@ -1,0 +1,16 @@
+<view class="xd-box">
+	<scroll-view scroll-y="true" class="scoll-h" style="height:{{winHeight}}rpx;">
+
+		<view class="xd-marg">
+			<view class="xd-list">
+
+				<view class="xd-list-row" wx:for="{{components}}" wx:for-item="item" bindtap="gotocom" data-path="{{item.path}}">
+					<view class="xd-list-row-txt">{{item.name}}</view>
+					<image class="xd-list-row-img" src="/images/a4.png"></image>
+				</view>
+
+			</view>
+		</view>
+
+	</scroll-view>
+</view>

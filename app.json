@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/components/button/button",
+    "pages/components/iconlist/iconlist",
+    "pages/components/slider/slider",
+    "pages/components/category/category"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "XD-SHOP-UI",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "plugins": {},
+  "permission": {},
+  "tabBar": {
+    "position": "bottom",
+    "color": "#333",
+    "backgroundColor": "#f5f5f5",
+    "selectedColor": "#ff3366",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index2.png",
+        "selectedIconPath": "/images/index.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/images/cart2.png",
+        "selectedIconPath": "/images/cart.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/my2.png",
+        "selectedIconPath": "/images/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

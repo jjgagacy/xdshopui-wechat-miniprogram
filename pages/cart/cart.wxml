@@ -1,0 +1,5 @@
+<view class="xd-box">
+	<view class="xd-center xd-top-30p">
+		<text class="xd-size-big">购物车</text>
+	</view>
+</view>

@@ -1,0 +1,30 @@
+<view class="xd-box">
+	<form bindsubmit="formSubmit">
+		<view class="xd-cat-search">
+			<view class="xd-top-search xd-full">
+				<input type="text" placeholder="搜索" bindconfirm="formConfirm" value="{{keywords}}" bindinput="setkeywords" />
+			</view>
+		</view>
+	</form>
+
+	<view class="xd-cat-bd">
+		<view class="xd-cat-list">
+			<scroll-view class="" scroll-x="false" scroll-y="true" style="height:{{winHeight}}rpx;" bindscrolltolower="onscolllowercat" >
+				<view class="xd-cat-item {{current_cat_id == item.cat_id ? 'active' : ''}}" wx:for="{{cat_list}}" wx:for-item="item" wx:key="item" wx:for-index="idx"  data-id="{{item.cat_id}}" catchtap="onSwitchCat">
+					<text>{{item.cat_name}}</text>
+				</view>
+			</scroll-view>
+		</view>
+		<view class="xd-cat-con">
+			<scroll-view class="" scroll-x="false" scroll-y="true" style="height:{{winHeight}}rpx;" bindscrolltolower="onscolllower">
+				<view class="xd-list">
+					<view class="xd-list-row" wx:for="{{product_list}}" wx:for-item="item" wx:key="item" wx:for-index="idx" data-id="{{item.product_id}}" bindtap="gotoproduct">
+						<text class="xd-list-row-txt">{{item.product_name}}</text>
+					</view>
+				</view>
+			</scroll-view>
+		</view>
+	</view>
+
+
+</view>
